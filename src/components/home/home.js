@@ -12,7 +12,7 @@ return(
  <>
  <Header/>
 <div className = "flex flex-row flex-wrap justify-around my-2 ">
-  {["clothing","pottery","jewelley","artifact"].map((item,index)=>(      <Category key= {index} title={item}/>
+  {["clothing","pottery","jewelley","artifact","antique"].map((item,index)=>(      <Category key= {index} title={item}/>
   ))}
 </div>
 
