@@ -1,5 +1,6 @@
 import React from "react";
 import clothing from '../../assets/home/clothing.jpg';
+import { NavLink } from "react-router-dom";
 const Category = (props) =>{
 return(
     <div className="max-w-sm rounded overflow-hidden shadow-lg">
@@ -10,6 +11,8 @@ return(
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
     </p>
   </div>
+  <NavLink to = "/category/pottery">
+  <button>Explore</button></NavLink>
   <div className="px-6 pt-4 pb-2">
     <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
     <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
