@@ -7,12 +7,15 @@ import Home from './components/home/home';
 import {Routes,Route} from 'react-router';
 import {BrowserRouter} from 'react-router-dom'
 import Main from './components/main/main';
+import CartProduct from './components/cart/cartproduct';
+import CartPage from './components/cart/cartpage';
 function App() {
   return (
-    <BrowserRouter>
-    <Main/>
-    </BrowserRouter>
+    // <BrowserRouter>
+    // <Main/>
+    // </BrowserRouter>
     // <CategoryPage/>
+    <CartPage/>
   );
 }
 
