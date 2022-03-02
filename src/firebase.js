@@ -4,14 +4,15 @@ import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 import 'firebase/compat/storage'
 const firebaseConfig = {
-    apiKey: "AIzaSyBeLXiRDL56uThp8Lluv7RsvmRPtQzswgk",
-    authDomain: "my-project-9a21a.firebaseapp.com",
-    projectId: "my-project-9a21a",
-    storageBucket: "my-project-9a21a.appspot.com",
-    messagingSenderId: "595781663568",
-    appId: "1:595781663568:web:37ae518331d6efd9264a55",
-    measurementId: "G-2VX3TG0YCR"
-  };
+  apiKey: "AIzaSyDxIj19T0_Zz3tD-cvJWzZIHT_NCy9gt7I",
+  authDomain: "artistic-alley-official.firebaseapp.com",
+  projectId: "artistic-alley-official",
+  storageBucket: "artistic-alley-official.appspot.com",
+  messagingSenderId: "491116990371",
+  appId: "1:491116990371:web:f22fc4b06bd1c68177d416",
+  measurementId: "G-9PSJ1TDPKK"
+};
+
 
 // Use this to initialize the firebase App
 const firebaseApp = firebase.initializeApp(firebaseConfig);
